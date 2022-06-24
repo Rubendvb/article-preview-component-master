@@ -1,0 +1,17 @@
+:root {
+  --cinza-muito-escuro: hsl(217, 19%, 35%);
+  --cinza-escuro: hsl(214, 17%, 51%);
+  --cinza-claro: hsl(212, 23%, 69%);
+  --cinza-muito-claro: hsl(210, 46%, 95%);
+
+  --font-family: "Manrope", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
