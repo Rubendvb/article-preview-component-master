@@ -23,40 +23,56 @@
     />
     <link rel="stylesheet" href="./assets/css/base/base.css" />
     <link rel="stylesheet" href="./assets/css/header/header.css" />
+    <link rel="stylesheet" href="./assets/css/main/main.css" />
   </head>
   <body>
     <div class="container">
       <header class="containerHeader"></header>
-      <main>
-        <h1>
+      <main class="containerMain">
+        <h1 class="containerMain__titulo">
           Shift the overall look and feel by adding these wonderful touches to
           furniture in your home
         </h1>
-        <p>
+        <p class="containerMain__titulo__paragrafo">
           Ever been in a room and felt like something was missing? Perhaps it
           felt slightly bare and uninviting. I’ve got some simple tips to help
           you make any room feel complete.
         </p>
 
-        <div>
-          <p>Michelle Appleton</p>
-          <p>28 Jun 2020</p>
+        <div class="containerMain__footer">
           <img
-            src="./assets/images/icon-share.svg"
-            alt="Botão de compartilhar"
+            class="containerMain__footer__img"
+            src="./assets/images/avatar-michelle.jpg"
+            alt="Foto perfil Michelle"
           />
-          <div>
-            <p>Share</p>
-            <a href="#" target="_blank"
-              ><ion-icon name="logo-facebook"></ion-icon
-            ></a>
-            <a href="#" target="_blank"
-              ><ion-icon name="logo-twitter"></ion-icon
-            ></a>
-            <a href="#" target="_blank"
-              ><ion-icon name="logo-pinterest"></ion-icon
-            ></a>
-            <img src="./assets/images/icon-share.svg" alt="" />
+          <div class="containerMain__footer__nome">
+            <p>Michelle Appleton</p>
+            <p>28 Jun 2020</p>
+          </div>
+          <div class="containerMain__footer__botao">
+            <img
+              src="./assets/images/icon-share.svg"
+              alt="Botão de compartilhar"
+            />
+          </div>
+        </div>
+        <div class="containerMain__footer__icones">
+          <p>Share</p>
+          <a href="#" target="_blank"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a href="#" target="_blank"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+          <a href="#" target="_blank"
+            ><ion-icon name="logo-pinterest"></ion-icon
+          ></a>
+          <div class="containerMain__footer__botao">
+            <img
+              class="containerMain__footer__botao"
+              src="./assets/images/icon-share.svg"
+              alt=""
+            />
           </div>
         </div>
       </main>
