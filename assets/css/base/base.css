@@ -7,6 +7,13 @@
   --font-family: "Manrope", sans-serif;
 }
 
+body {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  background: var(--cinza-muito-claro);
+  padding: 5rem 2rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
