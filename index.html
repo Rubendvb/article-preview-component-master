@@ -15,8 +15,6 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link rel="stylesheet" href="./assets/css/base/reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
       rel="stylesheet"
@@ -24,11 +22,12 @@
     <link rel="stylesheet" href="./assets/css/base/base.css" />
     <link rel="stylesheet" href="./assets/css/header/header.css" />
     <link rel="stylesheet" href="./assets/css/main/main.css" />
+    <link rel="stylesheet" href="./assets/css/informacoes/informacoes.css" />
   </head>
   <body>
     <div class="container">
       <header class="containerHeader"></header>
-      <main class="containerMain">
+      <main>
         <h1 class="containerMain__titulo">
           Shift the overall look and feel by adding these wonderful touches to
           furniture in your home
@@ -38,52 +37,54 @@
           felt slightly bare and uninviting. I’ve got some simple tips to help
           you make any room feel complete.
         </p>
+      </main>
 
-        <div class="containerMain__footer">
+      <section class="containerInformaçoes">
+        <div class="containerInformaçoes__perfil">
           <img
-            class="containerMain__footer__img"
+            class="containerInformaçoes__perfil--foto"
             src="./assets/images/avatar-michelle.jpg"
             alt="Foto perfil Michelle"
           />
-          <div class="containerMain__footer__nome">
+          <div class="containerInformaçoes__nome">
             <p>Michelle Appleton</p>
             <p>28 Jun 2020</p>
           </div>
-          <div class="containerMain__footer__botao">
-            <img
-              src="./assets/images/icon-share.svg"
-              alt="Botão de compartilhar"
-            />
+        </div>
+        <div class="iconesContainer">
+          <div class="containerIcones__icones">
+            <p class="containerIcones__texto">Share</p>
+            <a class="icones" href="#"
+              ><img src="./assets/images/icon-facebook.svg" alt="" /></a
+            ><a class="icones" href="#"
+              ><img src="./assets/images/icon-twitter.svg" alt="" /></a
+            ><a class="icones" href="#"
+              ><img src="./assets/images/icon-pinterest.svg" alt=""
+            /></a>
           </div>
         </div>
-        <div class="containerMain__footer__icones">
-          <p>Share</p>
-          <a href="#" target="_blank"
-            ><ion-icon name="logo-facebook"></ion-icon
-          ></a>
-          <a href="#" target="_blank"
-            ><ion-icon name="logo-twitter"></ion-icon
-          ></a>
-          <a href="#" target="_blank"
-            ><ion-icon name="logo-pinterest"></ion-icon
-          ></a>
-          <div class="containerMain__footer__botao">
-            <img
-              class="containerMain__footer__botao"
-              src="./assets/images/icon-share.svg"
-              alt=""
-            />
-          </div>
+        <div>
+          <button class="containerInformaçoes__btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+              <path
+                fill="#6E8098"
+                d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+              />
+            </svg>
+          </button>
         </div>
-      </main>
-      <footer class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </footer>
+      </section>
     </div>
 
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Rubendvb" target="_blank">Rubén</a>.
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
