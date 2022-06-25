@@ -84,3 +84,15 @@
 .icones {
   margin-left: 15px;
 }
+
+@media screen and (min-width: 768px) {
+  .icones {
+    margin-left: calc(40px);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .icones {
+    margin-left: 100px;
+  }
+}
