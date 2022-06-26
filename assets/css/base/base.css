@@ -30,14 +30,13 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   body {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    padding: 0;
-    padding: 0 22rem;
+    padding: 0 20rem;
   }
 }

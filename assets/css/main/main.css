@@ -23,14 +23,16 @@
 
 @media screen and (min-width: 1200px) {
   .container {
+    width: 700px;
     display: grid;
-    grid-template-columns: 45% 2fr;
+    grid-template-columns: 280px 420px;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .container {
-    display: grid;
-    grid-template-columns: 45% 2fr;
+  .containerMain__titulo {
+    font-size: 1.2rem;
+  }
+
+  .containerMain__titulo__paragrafo {
+    margin-bottom: 1rem;
   }
 }
