@@ -42,8 +42,7 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Rubendvb/article-preview-component-master)
-- Live Site URL: [Add live site URL here](https://article-preview-component-master-sepia.vercel.app/)
+- Solution URL: [Add live site URL here](https://article-preview-component-master-sepia.vercel.app/)
 
 ## My process
 
